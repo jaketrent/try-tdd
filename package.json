@@ -1,0 +1,23 @@
+{
+  "name": "hello-tdd",
+  "version": "1.0.0",
+  "description": "tdd exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony \"test/unit/**/*.spec.js\" --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaketrent/hello-tdd.git"
+  },
+  "author": "jaketrent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaketrent/hello-tdd/issues"
+  },
+  "homepage": "https://github.com/jaketrent/hello-tdd",
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "should": "~3.3.1"
+  }
+}
