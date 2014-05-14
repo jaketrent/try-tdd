@@ -3,7 +3,11 @@
  *
  * Sample input:
  *
- * [{ 'course-id': 123 }, { title: 'Dev Mountain' }, { start_date: new Date(2014, 2, 14) }]
+ * [
+ *  { 'course-id': 123 },
+ *  { title: 'Dev Mountain' },
+ *  { start_date: new Date(2014, 2, 14) }
+ * ]
  *
  * Sample output:
  *
