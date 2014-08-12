@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = function (list, conditionFn) {
   var filtered = []
   if (list && list.length > 0) {

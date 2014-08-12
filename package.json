@@ -1,6 +1,6 @@
 {
   "name": "hello-tdd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tdd exercise",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaketrent/hello-tdd.git"
+    "url": "git://github.com/jaketrent/try-tdd.git"
   },
   "author": "jaketrent",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaketrent/hello-tdd/issues"
+    "url": "https://github.com/jaketrent/try-tdd/issues"
   },
-  "homepage": "https://github.com/jaketrent/hello-tdd",
+  "homepage": "https://github.com/jaketrent/try-tdd",
   "devDependencies": {
-    "mocha": "~1.18.2",
-    "should": "~3.3.1"
+    "mocha": "^1.18.2",
+    "should": "^3.3.2"
   }
 }

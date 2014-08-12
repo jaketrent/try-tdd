@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * Transforms an array of objects into a single object.
  *
