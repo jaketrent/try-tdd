@@ -8,7 +8,7 @@
  * Json-api has a root attribute that you probably don't want to deal
  * with in your code.  It also wraps even singular resources in an array.
  * It's merely a serialization format for standardizing how data is passed
- * between the server and then client.  In your code, your probably want
+ * between the server and a client.  In your code, you probably want
  * the json unwrapped so you can deal with the raw model.  For example...
  *
  * For this sample input:
@@ -31,5 +31,25 @@
  * @returns {Object|Array} object or array of raw model
  */
 module.exports = function (json) {
+  if (!json) return
 
+  if (typeof json !== 'object') {
+    throw new Error('Object required')
+  }
+
+  var rootAttribute = Object.keys(json)[0]
+  return json[rootAttribute][0]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
