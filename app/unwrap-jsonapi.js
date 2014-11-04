@@ -30,15 +30,8 @@
  * @param {Object} json-api object
  * @returns {Object|Array} object or array of raw model
  */
-module.exports = function (json) {
-  if (!json) return
-
-  if (typeof json !== 'object') {
-    throw new Error('Object required')
-  }
-
-  var rootAttribute = Object.keys(json)[0]
-  return json[rootAttribute][0]
+module.exports = function () {
+  // TODO: write tests first, then implement step-by-step
 }
 
 
