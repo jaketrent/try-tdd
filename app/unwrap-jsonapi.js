@@ -30,9 +30,39 @@
  * @param {Object} json-api object
  * @returns {Object|Array} object or array of raw model
  */
-module.exports = function () {
-  // TODO: write tests first, then implement step-by-step
+//function unwrap(json) {
+//  if (!json) return
+//
+//  if (typeof json !== 'object') throw new Error('Only objects are allowed')
+//
+//  var firstKey = Object.keys(json)[0]
+//  return json[firstKey][0]
+//}
+//
+//module.exports = unwrap
+
+module.exports = function unwrap(json) {
+  if (!json) return
+
+  if (typeof json !== 'object') throw new Error('Only objects are allowed')
+
+  var firstKey = Object.keys(json)[0]
+  return json[firstKey][0]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -22,13 +22,13 @@ describe('fizzbuzz', function () {
     fizzbuzz.length.should.eql(1)
   })
 
-  it.skip('returns "fizz" if the number is divisible by 3', function () {
+  it('returns "fizz" if the number is divisible by 3', function () {
     fizzbuzz(3).should.eql('fizz')
     fizzbuzz(6).should.eql('fizz')
     fizzbuzz(multipleOf3Or5 * 3).should.eql('fizz')
   })
 
-  it.skip('returns "buzz" if the number is divisible by 5', function () {
+  it('returns "buzz" if the number is divisible by 5', function () {
     fizzbuzz(5).should.eql('buzz')
     fizzbuzz(10).should.eql('buzz')
     fizzbuzz(multipleOf3Or5 * 5).should.eql('buzz')
